@@ -35,7 +35,7 @@ export default function Header() {
         {/* Logo Motta Independiente (Izquierda) ESTÁTICO PERMANENTE (Oculto en móvil) */}
         <div className="pointer-events-auto relative hidden md:flex items-center justify-center w-[97px] h-[97px] shrink-0">
           {/* Círculo de fondo blanco siempre visible y estático */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-[110%] h-[110%] bg-white rounded-full -z-10 shadow-md" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-[85%] h-[85%] bg-white rounded-full -z-10 shadow-md" />
           {/* Logo original siempre igual */}
           <img 
             src="/assets/LOGOS/motta (1).png" 

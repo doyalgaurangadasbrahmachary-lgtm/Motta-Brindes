@@ -110,7 +110,7 @@ export default function SearchBar({ isScrolled }: SearchBarProps) {
 
       {/* Lista de Sugestões Google Style */}
       {results.length > 0 && (
-        <div className="absolute top-full left-0 w-full bg-[#1a1a1a] border border-[#333] rounded-2xl mt-2 max-h-[60vh] overflow-y-auto overscroll-contain shadow-2xl z-[1000] animate-in fade-in slide-in-from-top-2">
+        <div className="absolute top-full left-0 w-full lg:w-[450px] bg-[#1a1a1a] border border-[#333] rounded-2xl mt-2 max-h-[60vh] overflow-y-auto overscroll-contain shadow-2xl z-[1000] animate-in fade-in slide-in-from-top-2">
           {results.map(p => (
             <button 
               key={p.id}
@@ -121,7 +121,7 @@ export default function SearchBar({ isScrolled }: SearchBarProps) {
                 <span className="text-[#2f9c94] font-black text-xs shrink-0">{p.id}</span>
                 <span className="text-white/70 text-[10px] uppercase truncate w-full">{p.name}</span>
               </div>
-              <span className="text-[8px] bg-white/5 px-2 py-1 rounded text-white/40 uppercase shrink-0 max-w-[90px] truncate text-right">
+              <span className="text-[8px] bg-white/5 px-2 py-1 rounded text-white/40 uppercase shrink-0 max-w-[90px] lg:max-w-[150px] truncate text-right">
                 {p.tags && p.tags.length > 0 ? p.tags[0] : 'Brindes'}
               </span>
             </button>
