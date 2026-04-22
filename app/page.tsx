@@ -105,15 +105,14 @@ export default async function Home() {
         CATEGORIAS (Lista A-Z con Grid)
         ==============================
       */}
-      <div id="catalogo" className="w-[100vw] min-h-screen bg-[#0d0f10] relative left-1/2 -translate-x-1/2 pt-16 pb-32">
+      <div id="catalogo" className="w-[100vw] min-h-screen bg-[#0d0f10] relative left-1/2 -translate-x-1/2 pt-8 pb-32">
         <div className="brindes-container px-4">
           
-          <div className="mb-14 px-4 md:px-16 flex items-center justify-between w-full">
+          <div className="mb-8 px-4 md:px-16 flex items-center justify-between md:justify-start w-full">
             <div className="flex-shrink-0 relative flex items-center justify-center w-[93px] h-[93px] ml-4 md:hidden">
               <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-[101%] h-[101%] bg-white rounded-full -z-10 shadow-md" />
               <img src="/assets/LOGOS/motta (1).png" alt="Motta Logo" className="w-full h-full object-contain relative translate-x-[1px] translate-y-[0.5px] drop-shadow-md" />
             </div>
-            <div className="hidden md:block flex-shrink-0 w-16 h-16"></div>
             <span className="text-gray-100 tracking-[0.2em] uppercase text-base md:text-xl font-semibold inline-block">
                CATEGORIAS
             </span>
