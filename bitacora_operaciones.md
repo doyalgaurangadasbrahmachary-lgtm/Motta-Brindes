@@ -2,6 +2,21 @@
 
 ---
 
+## 🚀 SESIÓN 22-04-2026 (NOCHE): DEPLOY EXITOSO Y PULIDO UI FINAL EN VERCEL
+**Estado:** ¡Producción Activa! La aplicación ha sido desplegada exitosamente en Vercel. La web carga sumamente rápido y el enlace ha sido enviado al cliente para su revisión final.
+
+### ✅ Hitos del Deploy y Pulido Final:
+1. **Resolución de Bloqueos en Vercel:**
+   - Se purgó la carpeta compilada local `.next` del repositorio (`git rm -r --cached`) y se agregó a `.gitignore` para evitar conflictos en el build del servidor.
+   - Se resolvió un bloqueo estricto de seguridad de Vercel actualizando `Next.js` a su última versión parcheada, eliminando la vulnerabilidad CVE-2025-66478 que impedía la construcción.
+2. **Ajustes Quirúrgicos en PC (Desktop UI):**
+   - **Vector del Logo:** Se calibró el círculo blanco detrás del logo redondo exactamente al `101%` (manteniendo la misma proporción simétrica de la versión móvil) para que funcione como un fino y elegante delineado blanco sobre el fondo oscuro.
+   - **Buscador (Dropdown):** Se amplió el ancho del contenedor de resultados en PC (`w-[450px]`) para otorgar más espacio a los nombres largos de los productos y categorías, evitando su recorte y manteniendo el anclaje original hacia la izquierda.
+   - **Alineación de Categorías:** Se redujeron simétricamente a la mitad los espacios entre el Hero y el Catálogo (`pt-8`, `mb-8`). Además, el título de sección "CATEGORIAS" fue alineado perfectamente a la izquierda (`md:justify-start`), compartiendo el mismo nivel visual y la misma sangría que la primera categoría de la grilla ("Datas Especiais").
+3. **Métrica de Éxito:** Rendimiento óptimo de velocidad en el servidor Vercel. A la espera de respuesta y posibles observaciones finales por parte del cliente.
+
+---
+
 ## 🚀 SESIÓN 22-04-2026: OPTIMIZACIÓN MÓVIL Y PULIDO DE UX FINAL
 **Estado:** Interfaz 100% optimizada para dispositivos móviles. Se resolvieron fricciones táctiles, visibilidad de acciones y estética de la cabecera. El proyecto entra en fase de "Pruebas de Rigor" pre-deployment.
 
