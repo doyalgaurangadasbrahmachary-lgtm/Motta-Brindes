@@ -12,7 +12,7 @@ export default function QuickSendCard({ sku, onClose }: QuickSendProps) {
 
     const enviarWA = () => {
         const msg = `Olá Motta Brindes! Tenho interesse no produto:\n📌 Código: ${sku}\nQuant: ${qty}\nObs: ${nota}`;
-        window.open(`https://wa.me/5531735022222?text=${encodeURIComponent(msg)}`, '_blank');
+        window.open(`https://wa.me/553173502222?text=${encodeURIComponent(msg)}`, '_blank');
     };
 
     return (
