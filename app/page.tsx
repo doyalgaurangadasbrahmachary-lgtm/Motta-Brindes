@@ -89,7 +89,7 @@ export default async function Home() {
               de quem entende e valoriza o sucesso do seu negócio.
             </p>
             <a 
-              href="https://wa.me/5535998869018?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." 
+              href="https://wa.me/5531735022222?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-transparent border-2 border-[#2f9c94] !text-white text-[11px] font-black uppercase tracking-[0.2em] rounded-full hover:bg-[#25D366] hover:border-[#25D366] transition-all duration-300 shadow-lg"

@@ -25,7 +25,7 @@ export default function Notepad() {
         agenda.forEach(item => {
             mensaje += `📌 CÓDIGO: ${item.sku}\n   QTDE: ${item.qty}\n   OBS: ${item.nota || 'Sem observação'}\n\n`;
         });
-        window.open(`https://wa.me/5535998869018?text=${encodeURIComponent(mensaje)}`, '_blank');
+        window.open(`https://wa.me/5531735022222?text=${encodeURIComponent(mensaje)}`, '_blank');
     };
 
     const jumpToProduct = async (sku: string) => {
